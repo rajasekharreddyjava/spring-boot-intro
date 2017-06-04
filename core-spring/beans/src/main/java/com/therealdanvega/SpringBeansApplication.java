@@ -20,7 +20,6 @@ public class SpringBeansApplication {
 
     public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(SpringBeansApplication.class, args);
-        System.out.println("Test...........");
 
         String[] beanNames = ctx.getBeanDefinitionNames();
         Arrays.sort(beanNames);
