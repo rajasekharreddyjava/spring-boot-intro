@@ -25,6 +25,7 @@ public class SpringBeansApplication {
         Arrays.sort(beanNames);
         for( String name : beanNames ){
             System.out.println(name);
+            System.out.println(name);
         }
 
         System.out.println( ctx.getBean("user").toString() );
